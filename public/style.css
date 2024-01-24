@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+header{
+    position: absolute;
+    background: rgb(255 255 255 / 39%);
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    width: 14.25%;
+    height: 100vh;
+}
+
+#column-1{
+    background-image: url("../Asserts/images/tom1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#column-2{
+    background-image: url("../Asserts/images/tom2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#column-3{
+    background-image: url("../Asserts/images/tom3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#column-4{
+    background-image: url("../Asserts/images/tom4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#column-5{
+    background-image: url("../Asserts/images/kick.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#column-6{
+    background-image: url("../Asserts/images/snare.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#column-7{
+    background-image: url("../Asserts/images/crash.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter-layer{
+    height: 100%;
+    width: 100%;
+    z-index: 25235;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    padding-top: 200%;
+}
+
+.filter-red{
+    background-color: rgba(255, 0, 0, 0.18);
+}
+
+.filter-white{
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+.filter-blue{
+    background: rgba(0, 119, 255, 0.18);
+}
+
+.filter-violet{
+    background-color: rgba(157, 0, 255, 0.18);
+}
+
+.filter-purple{
+    background: rgba(0, 8, 255, 0.18);
+}
+
+.filter-green{
+    background: rgba(0, 255, 102, 0.18);
+}
+
+.filter-yellow{
+    background: rgba(204, 255, 0, 0.25);
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgb(255 255 255 / 39%);
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 4px;
+}
+
+.love{
+    color: red;
+    font-size: 32px;
+}
+
+footer .copyright{
+    font-size: 13px;
+    font-weight: normal;
+    
+}
