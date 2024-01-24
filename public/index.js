@@ -1,24 +1,24 @@
 let sounds = {
   a: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/tom-1.mp3"
+    "./Asserts/sounds/tom-1.mp3"
   ),
   s: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/tom-2.mp3"
+    "./Asserts/sounds/tom-2.mp3"
   ),
   d: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/tom-3.mp3"
+    "./Asserts/sounds/tom-3.mp3"
   ),
   f: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/tom-4.mp3"
+    "./Asserts/sounds/tom-4.mp3"
   ),
   j: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/kick-bass.mp3"
+    "./Asserts/sounds/kick-bass.mp3"
   ),
   k: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/snare.mp3"
+    "./Asserts/sounds/snare.mp3"
   ),
   l: new Audio(
-    "./Asserts/Drum+Kit+Starting+Files/Drum Kit Starting Files/sounds/crash.mp3"
+    "./Asserts/sounds/crash.mp3"
   ),
 };
 
