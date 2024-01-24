@@ -13,7 +13,6 @@ main{
     align-content: center;
     flex-wrap: wrap;
     gap: 5px;
-    /* border: 2px solid red; */
     height: 100vh;
 }
 
